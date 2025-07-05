@@ -1,0 +1,11 @@
+## varivaiesEConstantes.js ##
+
+Preferir criar variáveis usando let 
+Variáveis let não podem ser redeclaradas
+
+Constantes (const) - Não posso atribuir um novo valor 
+quanto mais constantes melhor
+
+## objeto.js ##
+
+Consigo instanciar um objeto através do typeof new Object()
