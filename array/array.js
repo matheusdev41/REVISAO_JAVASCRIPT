@@ -26,3 +26,11 @@ console.log(aprovados)
 // Ordenação do Array
 aprovados.sort()
 console.log(aprovados)
+
+delete aprovados[1]
+console.log(aprovados)
+
+aprovados = ['Bia', 'Carlos', 'Ana']
+// Função splice serve para remover e adicionar elementos no array
+aprovados.splice(1, 2, 'Elemento 1', 'Elemento 2')
+console.log(aprovados)
