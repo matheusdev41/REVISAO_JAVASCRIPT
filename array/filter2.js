@@ -1,8 +1,8 @@
 Array.prototype.filter2 = function(callback) {
     const newArray = []
-    for(let i = 0; i < this.length; i++) {
+    for (let i = 0; i < this.length; i++) {
         if(callback(this[i], i, this))
-        newArray.push(this[i]) // Adiciona elemento original
+            newArray.push(this[i]) // Adiciona elemento original
     }
     return newArray
 }
@@ -15,5 +15,5 @@ const produtos = [
 ]
 
 console.log(produtos.filter2(function(p) {
-    return p.preco > 2500
+    return p.preco > 100
 }))
